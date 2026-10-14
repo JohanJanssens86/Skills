@@ -1,8 +1,8 @@
 # Matt Pocock-skills voor Codex
 
-Deze repository bevat negen skills, aangepast voor Codex: `domain-modeling`,
+Deze repository bevat tien skills, aangepast voor Codex: `domain-modeling`,
 `grilling`, `grill-me`, `grill-with-docs`, `to-spec`, `setup-matt-pocock-skills`,
-`implement-spec`, `tdd` en `code-review`.
+`to-tickets`, `implement-spec`, `tdd` en `code-review`.
 
 Bron: [mattpocock/skills](https://github.com/mattpocock/skills). De lokale
 aanpassingen vervangen Claude-specifieke aanroepen door Codex-instructies.
@@ -51,9 +51,11 @@ onderdeel van deze bundel.
 Gebruik `$implement-spec` met een verwijzing naar een specificatie en de
 bijbehorende tickets met afhankelijkheden. De skill laat subagents de tickets
 implementeren in afzonderlijke worktrees, brengt het resultaat samen op een
-integratiebranch en gebruikt `tdd` en `code-review`. `to-tickets` is niet
-geïnstalleerd; de tickets moeten al bestaan. Het installeren voert geen
-specificatie uit.
+integratiebranch en gebruikt `tdd` en `code-review`. Maak de tickets vooraf met
+`$to-tickets`: die skill splitst de specificatie in uitvoerbare tickets met
+afhankelijkheden en publiceert de goedgekeurde indeling naar de tracker.
+De volledige workflow is `$grill-with-docs` → `$to-spec` → `$to-tickets` →
+`$implement-spec`. Het installeren voert geen specificatie uit.
 
 ## Bijwerken
 
