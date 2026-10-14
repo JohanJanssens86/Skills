@@ -1,7 +1,11 @@
 # Matt Pocock-skills voor Codex
 
-Deze repository bevat zes skills, aangepast voor Codex: `domain-modeling`,
-`grilling`, `grill-me`, `grill-with-docs`, `to-spec` en `setup-matt-pocock-skills`.
+Deze repository bevat negen skills, aangepast voor Codex: `domain-modeling`,
+`grilling`, `grill-me`, `grill-with-docs`, `to-spec`, `setup-matt-pocock-skills`,
+`implement-spec`, `tdd` en `code-review`.
+
+Bron: [mattpocock/skills](https://github.com/mattpocock/skills). De lokale
+aanpassingen vervangen Claude-specifieke aanroepen door Codex-instructies.
 
 ## Installeren op Windows
 
@@ -43,6 +47,13 @@ gh label create ready-for-agent --repo OWNER/REPO --color 0E8A16 --description "
 
 In `JohanJanssens86/Skills` is dit label al aanwezig. De `triage`-skill is niet
 onderdeel van deze bundel.
+
+Gebruik `$implement-spec` met een verwijzing naar een specificatie en de
+bijbehorende tickets met afhankelijkheden. De skill laat subagents de tickets
+implementeren in afzonderlijke worktrees, brengt het resultaat samen op een
+integratiebranch en gebruikt `tdd` en `code-review`. `to-tickets` is niet
+geïnstalleerd; de tickets moeten al bestaan. Het installeren voert geen
+specificatie uit.
 
 ## Bijwerken
 
