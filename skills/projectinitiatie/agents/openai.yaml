@@ -1,0 +1,4 @@
+interface:
+  display_name: "Projectinitiatie"
+  short_description: "Vul een initiatietemplate in via kritische vragen"
+  default_prompt: "Gebruik $projectinitiatie om mij in vraag-en-antwoordrondes te begeleiden naar een zo volledig mogelijk ingevulde projectinitiatietemplate."

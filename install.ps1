@@ -11,7 +11,7 @@ $sourceFull = [IO.Path]::GetFullPath($sourceRoot)
 if ($targetRoot.TrimEnd('\', '/') -eq $sourceFull.TrimEnd('\', '/')) {
     throw 'Destination must differ from the source skills directory.'
 }
-$skillNames = @('domain-modeling', 'grilling', 'grill-me', 'grill-with-docs', 'to-spec', 'setup-matt-pocock-skills', 'to-tickets', 'implement-spec', 'tdd', 'code-review')
+$skillNames = @('domain-modeling', 'grilling', 'grill-me', 'grill-with-docs', 'to-spec', 'setup-matt-pocock-skills', 'to-tickets', 'implement-spec', 'tdd', 'code-review', 'projectinitiatie')
 foreach ($name in $skillNames) {
     if (!(Test-Path -LiteralPath (Join-Path $sourceRoot "$name/SKILL.md"))) {
         throw "Missing skill: $name"

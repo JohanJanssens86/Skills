@@ -1,11 +1,13 @@
 # Matt Pocock-skills voor Codex
 
-Deze repository bevat tien skills, aangepast voor Codex: `domain-modeling`,
+Deze repository bevat elf skills voor Codex: `domain-modeling`,
 `grilling`, `grill-me`, `grill-with-docs`, `to-spec`, `setup-matt-pocock-skills`,
-`to-tickets`, `implement-spec`, `tdd` en `code-review`.
+`to-tickets`, `implement-spec`, `tdd`, `code-review` en `projectinitiatie`.
 
 Bron: [mattpocock/skills](https://github.com/mattpocock/skills). De lokale
 aanpassingen vervangen Claude-specifieke aanroepen door Codex-instructies.
+`projectinitiatie` is een eigen uitbreiding op basis van de aangeleverde
+initiatietemplate en het aanvullende invulvoorbeeld.
 
 ## Installeren op Windows
 
@@ -56,6 +58,16 @@ integratiebranch en gebruikt `tdd` en `code-review`. Maak de tickets vooraf met
 afhankelijkheden en publiceert de goedgekeurde indeling naar de tracker.
 De volledige workflow is `$grill-with-docs` → `$to-spec` → `$to-tickets` →
 `$implement-spec`. Het installeren voert geen specificatie uit.
+
+Gebruik `$projectinitiatie` voor een kritisch vraag-en-antwoordinterview dat
+eindigt in een zo volledig mogelijk ingevulde initiatietemplate. De skill bevat
+de oorspronkelijke PDF en een bewerkbare Markdowntemplate. Inschattingen worden
+verdeeld over Analyse, Testing en Development: eerst 20% marge bij de werkdagen,
+daarna T-shirt sizing (S <10d, M 10-<20d, L 20-<40d, XL 40-80d, XXL >80d).
+De marge wordt intern verwerkt en niet afzonderlijk getoond. Ontbrekende gegevens
+blijven zichtbaar als open punten. Het resultaat is een beknopt lokaal
+initiatiedocument in Markdown, na inhoudelijke bevestiging altijd ook als
+downloadbare PDF. Er worden geen specificatie of tickets gepubliceerd.
 
 ## Bijwerken
 
