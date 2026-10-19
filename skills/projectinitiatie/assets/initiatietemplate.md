@@ -88,20 +88,29 @@ betrokken teams, volgorde, aannames en beslismomenten.]
 
 ## Inschattingen en verwachte kosten
 
-[Vermeld beknopt de ramende partij, scope en belangrijkste aannames.
-d = persoonswerkdag. Toon alleen de resulterende inschatting en T-shirtmaat;
-verwerk de marge intern volgens de invulregels.]
+[Identificeer herkenbare features vanuit de scope en impactanalyse. Vermeld
+beknopt per feature de afbakening, ramende partij, betrokken teams, belangrijkste
+aannames en status in de begeleidende tekst. Gebruik één rij per feature met
+een kolom per topic en toon een totaal per optie voor het subproject. Toon alleen
+de T-shirtmaat; bereken inspanning en marge intern volgens de invulregels.]
 
-| Optie / team / leverancier | Topic | Inschatting (d) | T-shirtmaat | Onderbouwing / status |
-| --- | --- | --- | --- | --- |
-| [partij] | Analyse | [dagen] | [maat] | [bron/aannames] |
-| [partij] | Testing | [dagen] | [maat] | [bron/aannames] |
-| [partij] | Development | [dagen] | [maat] | [bron/aannames] |
-| Totaal per optie | Alle topics | [som] | [maat uit dagen] | [volledigheid] |
+| Feature | Analyse | Testing | Development |
+| --- | --- | --- | --- |
+| [featurenaam] | [maat] | [maat] | [maat] |
+| Totaal | [maat uit totale analysedagen] | [maat uit totale testingdagen] | [maat uit totale developmentdagen] |
 
-| Optie / team / leverancier | Eenmalige kosten | Terugkerende kosten + periode | Basis / tarief | Doorlooptijd + capaciteitsaannames |
-| --- | --- | --- | --- | --- |
-| [partij] | [bedrag of onbekend] | [bedrag of onbekend] | [onderbouwing] | [termijn of onbekend] |
+Totale T-shirtmaat (per optie, alle topics samen): [maat uit intern berekende totale dagen].
+
+Overzicht T-shirtmaten (d = persoonswerkdag):
+
+| T-shirtmaat | Inspanning (d) |
+| --- | --- |
+| XS | Minder dan 5d |
+| S | Vanaf 5d tot minder dan 10d |
+| M | Vanaf 10d tot minder dan 20d |
+| L | Vanaf 20d tot minder dan 40d |
+| XL | Vanaf 40d tot en met 80d |
+| XXL | Meer dan 80d |
 
 ## ROI
 

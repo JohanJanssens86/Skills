@@ -51,9 +51,14 @@ hoofdrubrieken, relevante aannames, risico's en open beslispunten.
   teams, afhankelijkheden en aannames. Nieuwe EPIC-/featurelabels zijn voorstellen
   en geen bestaande trackeridentificaties.
 - **Inschattingen en verwachte kosten:** gebruik de regels hieronder. Vraag
-  teamnamen en het leidende team na. Scheid inspanning, doorlooptijd, eenmalige
-  kosten en terugkerende kosten (zoals hosting, certificaten en licenties).
-  Beheer staat zo nodig bij kosten; voeg het niet als vierde ramingscategorie toe.
+  teamnamen en het leidende team na. Identificeer vanuit scope en impactanalyse
+  afzonderlijke herkenbare features en beschrijf hun afbakening kort. Raam per
+  feature Analyse, Testing en Development; splits alleen waar de inhoud dat
+  rechtvaardigt. Voorkom overlap en dubbeltelling van gedeeld werk. Vermeld
+  teamverantwoordelijkheden in de begeleidende tekst. Voeg geen kostprijstabel
+  toe. Vermeld relevante, bekende kosten of financiële onzekerheden zo nodig
+  beknopt in tekst. Scheid inspanning en doorlooptijd; voeg beheer niet als
+  vierde ramingscategorie toe.
 - **ROI:** maak alleen een financiële berekening als kosten, baten en periode
   voldoende onderbouwd zijn. Toon de formule en aannames. Zonder cijfers geef
   je kwalitatieve baten en ontbrekende input, geen verzonnen rendement.
@@ -74,30 +79,44 @@ zonder onderbouwing of gebruikersbesluit.
 
 `d` betekent een werkdag inspanning (persoonswerkdag), geen kalenderdag of
 doorlooptijd. Verdeel alle inspanning onder **Analyse**, **Testing** en
-**Development**, zo nodig per optie en per team/leverancier.
+**Development**, per geïdentificeerde feature en zo nodig per oplossingsoptie.
+Leg betrokken teams en leveranciers vast in de begeleidende tekst. Vergelijk
+alternatieve opties in afzonderlijke tabellen met dezelfde features en scope.
 
 1. Leg per raming de basis in werkdagen en de onderbouwing intern vast. Een eigen
    expertinschatting mag als expliciet voorlopig voorstel met aannames ter
    bevestiging; zonder voldoende basis blijft de waarde “Nog te ramen”.
 2. Bereken `marge = basis × 0,20` en `inclusief marge = basis × 1,20`.
-   Bewaar decimalen; rond niet af voordat je de maat bepaalt. Toon alleen de
-   resulterende dagen onder **Inschatting (d)** en de **T-shirtmaat**. De marge
-   blijft verwerkt in die dagen, maar is niet zichtbaar als aparte kolom,
-   toelichting of berekening in het initiatiedocument. Toon ook geen basisdagen.
+   Bewaar decimalen; rond niet af voordat je de maat bepaalt. Houd de dagen
+   en berekening intern bij. De ramingstabel bevat de kolommen **Feature**,
+   **Analyse**, **Testing** en **Development**, zonder **Inschatting (d)** of
+   **Onderbouwing / status**. Gebruik één rij per feature, met de featurenaam
+   in de eerste kolom en een T-shirtmaat in elk van de drie topic-kolommen.
+   Voeg per optie een totaalrij met de maat per topic toe en vermeld de totale
+   maat over alle topics samen kort onder de tabel. Vermeld ramende partij, betrokken
+   teams, afbakening, aannames en status beknopt in begeleidende tekst.
+   Toon geen basisdagen, marge of berekening in het
+   initiatiedocument.
 3. Bepaal de T-shirtmaat op de inspanning **inclusief** marge. De schrijfwijze
    van de gebruiker bevat overlappende grenzen; gebruik onderstaande expliciete
-   grensconventie en vermeld die bij het eerste ramingsvoorstel. Volg een
-   latere gebruikerscorrectie consequent in alle ramingen.
+   grensconventie. Plaats direct onder de ramingstabel een afzonderlijke tabel
+   met alle onderstaande maten en daggrenzen, met de kolommen **T-shirtmaat**
+   en **Inspanning (d)**. Vermeld daarbij dat d een persoonswerkdag betekent;
+   laat de marge uit de zichtbare tabelkop en toelichting weg. Volg een latere
+   gebruikerscorrectie consequent in alle ramingen.
 
 | Maat | Werkdagen inclusief 20% marge |
 | --- | --- |
-| S | minder dan 10d |
+| XS | minder dan 5d |
+| S | vanaf 5d tot minder dan 10d |
 | M | vanaf 10d tot minder dan 20d |
 | L | vanaf 20d tot minder dan 40d |
 | XL | vanaf 40d tot en met 80d |
 | XXL | meer dan 80d |
 
-4. Tel de basisdagen en margedagen per categorie op voor een totaal. Voeg niet
+4. Tel de basisdagen en margedagen van alle features en topics op voor een
+   totaal per subproject en oplossingsoptie. Reken gedeeld werk slechts één
+   keer mee en vermeld bij welke feature het is ondergebracht. Voeg niet
    opnieuw 20% toe aan een totaal van reeds verhoogde ramingen. Tel geen
    T-shirtletters op. Een totaalmaat wordt opnieuw uit de totale dagen bepaald.
    Tel wederzijds uitsluitende oplossingsopties niet samen.
@@ -119,6 +138,6 @@ Voorbeelden (basis -> inclusief marge -> maat):
 - 35d -> 42d -> XL.
 - 70d -> 84d -> XXL.
 
-Exact 10d inclusief marge is M, exact 20d is L, exact 40d is XL en exact 80d
-is XL. Een expliciet bevestigde 0d betekent geen inspanning: toon “0d, n.v.t.”
+Exact 5d inclusief marge is S, exact 10d is M, exact 20d is L, exact 40d is XL en exact 80d
+is XL. Een expliciet bevestigde 0d betekent geen inspanning: toon “n.v.t.”
 in plaats van S. Verwar onbekend niet met nul en accepteer geen negatieve dagen.

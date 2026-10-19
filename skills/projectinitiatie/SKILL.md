@@ -63,8 +63,19 @@ afhankelijkheden en ramingen. Herhaal geen beantwoorde vragen.
 Vraag expliciet naar de raming voor Analyse, Testing en Development en wie die
 kan onderbouwen. Bij meerdere opties of teams vraag je ramingen op dezelfde
 scope. Gebruik de berekeningsregels uit de referentie. Verreken de 20% marge
-intern; toon in het document alleen de resulterende inschatting in werkdagen
-en de T-shirtmaat, zonder zichtbare basis-, marge- of berekeningskolommen.
+intern. Identificeer vanuit scope en impactanalyse verschillende herkenbare
+features waar de wijziging daar aanleiding toe geeft; verzin geen extra features
+om de tabel te vullen. Toon in de ramingstabel één rij per feature met de
+kolommen Feature, Analyse, Testing en Development. Vul de drie topic-kolommen
+met T-shirtmaten en voeg per optie een totaalrij met de maat per topic toe.
+Vermeld de totale maat over alle topics samen kort onder de ramingstabel.
+Laat de kolommen Inschatting (d) en
+Onderbouwing / status weg. Vermeld de ramende partij, betrokken teams,
+afbakening, aannames en status beknopt in de begeleidende tekst.
+Plaats direct onder de ramingstabel het overzicht van alle geconfigureerde
+T-shirtmaten en hun daggrenzen uit de referentie, zonder zichtbare marge.
+Voeg geen kostprijstabel toe; vermeld relevante bekende kosten of financiële
+onzekerheden zo nodig beknopt in tekst.
 
 ## Afronden en opleveren
 
