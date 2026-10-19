@@ -72,8 +72,10 @@ Vermeld de totale maat over alle topics samen kort onder de ramingstabel.
 Laat de kolommen Inschatting (d) en
 Onderbouwing / status weg. Vermeld de ramende partij, betrokken teams,
 afbakening, aannames en status beknopt in de begeleidende tekst.
-Plaats direct onder de ramingstabel het overzicht van alle geconfigureerde
-T-shirtmaten en hun daggrenzen uit de referentie, zonder zichtbare marge.
+Plaats direct onder de ramingstabel deze tekst in plaats van een aparte
+T-shirtmaattabel: “Maatgrenzen: XS < 5d; S <10d; M 10 tot <20d; L 20 tot <40d;
+XL 40 t/m 80d; XXL >80d.” Vermeld dat d een persoonswerkdag betekent, zonder
+zichtbare marge.
 Voeg geen kostprijstabel toe; vermeld relevante bekende kosten of financiële
 onzekerheden zo nodig beknopt in tekst.
 

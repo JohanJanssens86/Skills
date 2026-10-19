@@ -99,11 +99,12 @@ alternatieve opties in afzonderlijke tabellen met dezelfde features en scope.
    initiatiedocument.
 3. Bepaal de T-shirtmaat op de inspanning **inclusief** marge. De schrijfwijze
    van de gebruiker bevat overlappende grenzen; gebruik onderstaande expliciete
-   grensconventie. Plaats direct onder de ramingstabel een afzonderlijke tabel
-   met alle onderstaande maten en daggrenzen, met de kolommen **T-shirtmaat**
-   en **Inspanning (d)**. Vermeld daarbij dat d een persoonswerkdag betekent;
-   laat de marge uit de zichtbare tabelkop en toelichting weg. Volg een latere
-   gebruikerscorrectie consequent in alle ramingen.
+   grensconventie. Plaats direct onder de ramingstabel deze tekst, zonder
+   afzonderlijke T-shirtmaattabel: “Maatgrenzen: XS < 5d; S <10d; M 10 tot <20d;
+   L 20 tot <40d; XL 40 t/m 80d; XXL >80d.” Vermeld dat d een persoonswerkdag
+   betekent; toon geen marge. Deze beknopte weergave verandert de onderstaande
+   rekenregels niet: S begint bij 5d. Volg een latere gebruikerscorrectie
+   consequent in alle ramingen.
 
 | Maat | Werkdagen inclusief 20% marge |
 | --- | --- |

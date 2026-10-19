@@ -99,18 +99,11 @@ de T-shirtmaat; bereken inspanning en marge intern volgens de invulregels.]
 | [featurenaam] | [maat] | [maat] | [maat] |
 | Totaal | [maat uit totale analysedagen] | [maat uit totale testingdagen] | [maat uit totale developmentdagen] |
 
+Maatgrenzen: XS < 5d; S <10d; M 10 tot <20d; L 20 tot <40d; XL 40 t/m 80d; XXL >80d.
+
+d = persoonswerkdag.
+
 Totale T-shirtmaat (per optie, alle topics samen): [maat uit intern berekende totale dagen].
-
-Overzicht T-shirtmaten (d = persoonswerkdag):
-
-| T-shirtmaat | Inspanning (d) |
-| --- | --- |
-| XS | Minder dan 5d |
-| S | Vanaf 5d tot minder dan 10d |
-| M | Vanaf 10d tot minder dan 20d |
-| L | Vanaf 20d tot minder dan 40d |
-| XL | Vanaf 40d tot en met 80d |
-| XXL | Meer dan 80d |
 
 ## ROI
 
