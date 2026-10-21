@@ -24,6 +24,9 @@ grill-me-interviewstructuur en vereist geen afzonderlijk geïnstalleerde skill.
   opdrachten van de gebruiker. Neem geen projectspecifieke voorbeeldgegevens over.
 - Vul bekende informatie meteen in een werkconcept in. Houd per rubriek bij wat
   bevestigd, voorgesteld, tegenstrijdig of onbekend is en vermeld de bron.
+- Leg bovenaan het type initiatief vast als Project of Improvement; vraag de
+  gebruiker om deze keuze te bevestigen als ze nog onbekend is. EPIC is geen
+  classificatie voor het initiatief.
 - Zoek beschikbare feiten zelf op; stel de gebruiker vragen over keuzes,
   ervaringskennis en informatie die je niet uit toegankelijke bronnen kunt halen.
   Historische ontwerpen bewijzen geen actuele werking.
@@ -90,7 +93,10 @@ voor het voorstel. Blijf niet eindeloos doorvragen over onbeschikbare informatie
 Lever de ingevulde template als bewerkbaar Markdownbestand in de werkruimte en
 link ernaar. Gebruik een door de gebruiker gevraagd ander documentformaat als
 de benodigde hulpmiddelen beschikbaar zijn. Behoud alle hoofdrubrieken en hun
-volgorde, inclusief lege financiële rubrieken met een duidelijke status.
+volgorde, inclusief lege financiële rubrieken met een duidelijke status. Behoud
+de oorspronkelijke eenkolomstabellen en de Scope-opmaak uit de template; vervang
+die tabellen niet door subkoppen. Beoordeel impact met de vijf criteriarijen in
+de invulregels en vermeld per dimensie de score en onderbouwing.
 Controleer dat voorbeeldinstructies en invulmarkeringen zijn vervangen door
 inhoud, “Nog te bevestigen”, “Onbekend” of gemotiveerd “Niet van toepassing”.
 

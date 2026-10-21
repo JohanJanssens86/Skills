@@ -16,11 +16,28 @@ De oorspronkelijke lege template is de basis; het voorbeeld verduidelijkt de
 inhoudelijke uitwerking. De expliciete opdracht van de gebruiker bepaalt de
 onderstaande sizing en de drie ramingscategorieën.
 
+De opmaak en impactcriteria zijn aangevuld vanuit de door de gebruiker aangeleverde
+`ProjectInitiatie 1.md` en `ProjectInitiatie-toelichting.md` van de collega.
+De daarin genoemde Confluence-links zijn hiervoor niet afzonderlijk geraadpleegd.
+Voor het type initiatief geldt de gebruikerskeuze: alleen Project of Improvement.
+
 ## Inhoud per rubriek
 
 Schrijf per rubriek alleen de kern. Vermijd herhaling en uitgebreide API- of
 implementatiebeschrijvingen; verwijs naar de bron voor details. Behoud de
 hoofdrubrieken, relevante aannames, risico's en open beslispunten.
+
+Behoud de oorspronkelijke volgorde en de eenkolomstabellen bij Aanvrager &
+stakeholders, Impact analyse, Risico analyse en Haalbaarheid, met de vetgedrukte
+labels en bijbehorende inhoudsrijen. Onder Scope blijven In scope en Out of Scope
+subsecties; MVP is een vetgedrukt onderdeel binnen In scope. De aanvullende
+impacttabel, ramingstabel, metadata en open punten blijven behouden.
+
+- **Type initiatief:** vermeld bovenaan Project of Improvement, zonder een nieuwe
+  hoofdrubriek toe te voegen. Bevestig deze keuze tijdens het interview als ze niet
+  uit de beschikbare informatie blijkt. Gebruik tot dan “Nog te bevestigen”. EPIC
+  is geen type initiatief; verwijzingen naar EPICs in afhankelijkheden en aanpak
+  blijven wel mogelijk. Verzin geen omvangs- of kostendrempel voor de classificatie.
 
 - **Aanvrager & stakeholders:** persoon en dienst, betrokken partijen, sponsor,
   beslissingsbevoegde en ICT-lead voor zover bekend. Scheid betrokkenheid van
@@ -38,7 +55,9 @@ hoofdrubrieken, relevante aannames, risico's en open beslispunten.
   Beoordeel vijf dimensies afzonderlijk als hoog/midden/laag met motivering:
   wettelijke verplichting, kwaliteit van zorg / veiligheid, efficiëntie van
   processen, financieel en data. Onbekend of niet van toepassing mag met reden.
-  Verzin geen totaalscore of prioriteringsformule. Controleer actuele wettelijke
+  Gebruik de criteria uit de onderstaande tabel Impactcriteria en motiveer de
+  gekozen score in de kolom Onderbouwing. Verzin geen numerieke drempels,
+  totaalscore of prioriteringsformule. Controleer actuele wettelijke
   claims via gezaghebbende bronnen voordat je ze als feit opneemt.
 - **Scope:** beschrijf expliciet in scope, het MVP en out of scope. Mogelijke
   vervolguitbreidingen zijn geen MVP-toezegging. Markeer onbesliste afbakening.
@@ -66,6 +85,20 @@ hoofdrubrieken, relevante aannames, risico's en open beslispunten.
   afzonderlijk, met onderbouwing en voorwaarden.
 - **Beslissing:** daadwerkelijk genomen besluit, beslisser, datum en voorwaarden
   indien bekend. Anders “Nog geen beslissing vastgelegd” met te beslissen punten.
+
+## Impactcriteria
+
+Gebruik deze criteria voor de vijf impactdimensies. De criteria zijn instructies
+voor het beoordelen; neem in het initiatiedocument de gekozen scores en hun
+onderbouwing op, zonder de volledige criteriatabel te herhalen.
+
+| Impactdimensie | Hoog | Midden | Laag |
+| --- | --- | --- | --- |
+| Wettelijke verplichting | Absolute wettelijke verplichting die zonder uitzondering geïmplementeerd moet worden. | Verplichting met beperkte ruimte voor interpretatie of fasering in de uitvoering. | Geen directe wettelijke verplichting; wenselijk vanuit richtlijnen of aanbevelingen. |
+| Kwaliteit van zorg/veiligheid | Risico’s voor patiënten die de zorgveiligheid kunnen beïnvloeden. | Mogelijke, beheersbare risico’s voor patiënten zonder directe grote impact op de zorgveiligheid. | Beperkt risico voor patiënten; nauwelijks impact op de zorgveiligheid. |
+| Efficiëntie van processen | Impact op het gehele administratieve zorgproces en de efficiëntie daarvan. | Merkbare invloed op specifieke onderdelen van het administratieve zorgproces. | Minimale of geen merkbare invloed op het administratieve zorgproces. |
+| Financieel | Significante eenmalige of terugkerende financiële impact. | Matige eenmalige of terugkerende impact, beheersbaar binnen bestaande budgetten. | Beperkte impact, eenvoudig te beheren binnen reguliere middelen. |
+| Data | Grote invloed op de kwaliteit en betrouwbaarheid van data. | Invloed op kwaliteit en betrouwbaarheid in bepaalde gevallen, zonder grootschalige consequenties. | Weinig tot geen invloed op de kwaliteit en betrouwbaarheid van data. |
 
 ## Meerdere oplossingsopties
 

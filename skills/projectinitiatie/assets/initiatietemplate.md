@@ -2,18 +2,18 @@
 
 Status: Concept ter afstemming
 
+Type initiatief: [Project of Improvement; nog te bevestigen indien onbekend]
+
 Bijgewerkt op: [datum]
 Bronnen en bevestigingen: [bron, datum en status; verwijs hiernaar in de tekst]
 
 ## Aanvrager & stakeholders
 
-### Aanvrager
-
-[Persoon, dienst, eigenaarschap en beslissingsbevoegdheid.]
-
-### Stakeholders
-
-[Betrokken partijen, rollen, sponsor en ICT-lead.]
+| **Aanvrager** |
+| --- |
+| [Persoon, dienst, eigenaarschap en beslissingsbevoegdheid.] |
+| **Stakeholders** |
+| [Betrokken partijen, rollen, sponsor en ICT-lead.] |
 
 ## Aanleiding & doel
 
@@ -37,49 +37,39 @@ Urgentie: [categorie, termijn, gevolgen van uitstel en onderbouwing]
 
 ## Scope
 
-### In scope
+#### In scope
 
 [Concreet opgenomen processen, gebruikers, functies en grenzen.]
 
-### MVP
+**MVP**
 
 [Eerste bruikbare oplevering, eerste gebruikers/partners en gekozen happy flow.]
 
-### Out of Scope
+#### Out of Scope
 
 [Expliciet uitgesloten elementen en eventuele latere uitbreidingen.]
 
 ## Impact analyse
 
-### Processen
-
-[Geraakte processen en veranderingen.]
-
-### Applicaties / interfaces
-
-[Geraakte systemen, koppelingen en gegevensstromen.]
-
-### Andere Diensten / functies
-
-[Organisatorische impact, beheer en verantwoordelijkheden.]
-
-### Afhankelijkheden van andere projecten / EPICs / features
-
-[Referenties, beschikbaarheid en onzekerheden.]
+| **Processen** |
+| --- |
+| [Geraakte processen en veranderingen.] |
+| **Applicaties / interfaces** |
+| [Geraakte systemen, koppelingen en gegevensstromen.] |
+| **Andere Diensten / functies** |
+| [Organisatorische impact, beheer en verantwoordelijkheden.] |
+| **Afhankelijkheden van andere projecten / EPICs / features** |
+| [Referenties, beschikbaarheid en onzekerheden.] |
 
 ## Risico analyse
 
-### Risico's
-
-[Risico, gevolg, maatregel en eigenaar voor zover bekend.]
-
-### Aandachtspunten
-
-[Bijzondere voorwaarden en te onderzoeken onzekerheden.]
-
-### Afhankelijkheden
-
-[Externe afspraken, toegang, leveranciers, capaciteit en besluiten.]
+| **Risico’s** |
+| --- |
+| [Risico, gevolg, maatregel en eigenaar voor zover bekend.] |
+| **Aandachtspunten** |
+| [Bijzondere voorwaarden en te onderzoeken onzekerheden.] |
+| **Afhankelijkheden** |
+| [Externe afspraken, toegang, leveranciers, capaciteit en besluiten.] |
 
 ## Plan van aanpak
 
@@ -112,17 +102,13 @@ ontbrekende input. Geen financiële ROI zonder voldoende cijfers.]
 
 ## Haalbaarheid
 
-### Technische haalbaarheid
-
-[Beoordeling, onderbouwing en voorwaarden.]
-
-### Organisatorische haalbaarheid
-
-[Beoordeling, eigenaarschap, capaciteit en voorwaarden.]
-
-### Financiële haalbaarheid
-
-[Beoordeling, budget en voorwaarden; onbekend waar niet onderbouwd.]
+| **Technische haalbaarheid** |
+| --- |
+| [Beoordeling, onderbouwing en voorwaarden.] |
+| **Organisatorische haalbaarheid** |
+| [Beoordeling, eigenaarschap, capaciteit en voorwaarden.] |
+| **Financiële haalbaarheid** |
+| [Beoordeling, budget en voorwaarden; onbekend waar niet onderbouwd.] |
 
 ## Beslissing
 
