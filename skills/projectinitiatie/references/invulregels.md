@@ -21,6 +21,10 @@ De opmaak en impactcriteria zijn aangevuld vanuit de door de gebruiker aangeleve
 De daarin genoemde Confluence-links zijn hiervoor niet afzonderlijk geraadpleegd.
 Voor het type initiatief geldt de gebruikerskeuze: alleen Project of Improvement.
 
+De samenvatting boven de tabel Urgentie & impact volgt het Confluence-voorbeeld
+[261021_Initiatie e-Healthbox integratie (PP-2005)](https://wgk-ovl.atlassian.net/wiki/spaces/ICTPRJ/pages/1541177969/261021_Initiatie+e-Healthbox+integratie+PP-2005).
+Gebruik alleen de opbouw; neem de projectspecifieke beoordelingen niet over.
+
 ## Inhoud per rubriek
 
 Schrijf per rubriek alleen de kern. Vermijd herhaling en uitgebreide API- of
@@ -46,7 +50,19 @@ impacttabel, ramingstabel, metadata en open punten blijven behouden.
   uitkomst waar onderbouwd. Scheid bestaande werking van gewenste werking.
 - **Business value:** voordelen voor processen, zorg/veiligheid indien relevant,
   data en organisatie. Tijdswinst is niet automatisch een FTE-besparing.
-- **Urgentie & impact:** motiveer urgentie met termijn en gevolgen van uitstel.
+- **Urgentie & impact:** beoordeel eerst de vijf dimensies in de impacttabel.
+  Zet boven die tabel een inhoudelijke inschatting met **Businessurgentie**, de
+  belangrijkste dimensies onder **Impact** en een korte toelichting op basis
+  van de beoordelingen en onderbouwingen eronder. Benoem welke gevolgen voor
+  de business de urgentie bepalen en wat uitstel betekent. De samenvatting moet
+  herleidbaar zijn tot de tabel; leid geen totaalscore af en kies niet automatisch
+  de hoogste dimensiescore als businessurgentie. Markeer een voorlopige of
+  onvoldoende onderbouwde inschatting als zodanig; vraag de gebruiker deze te
+  bevestigen als ze nog niet vaststaat.
+  Vermeld daarnaast afzonderlijk de urgentie op basis van tijdshorizon, met
+  bekende opleverdatum of termijn en gevolgen van uitstel. Een hoge inhoudelijke
+  businessurgentie bewijst geen deadline; zonder termijn blijft de tijdscategorie
+  onbekend of nog te bepalen.
   Gebruik heel hoog (1-3 maanden), hoog (3-6 maanden), midden (6-12 maanden),
   laag (effect na meer dan een jaar of uitstel zonder directe gevolgen), of
   onbekend. Dit zijn de banden uit het voorbeeld; bevestig de categorie bij
@@ -90,7 +106,8 @@ impacttabel, ramingstabel, metadata en open punten blijven behouden.
 
 Gebruik deze criteria voor de vijf impactdimensies. De criteria zijn instructies
 voor het beoordelen; neem in het initiatiedocument de gekozen scores en hun
-onderbouwing op, zonder de volledige criteriatabel te herhalen.
+onderbouwing op en geef daarboven de businessurgentie en belangrijkste
+impactdimensies met een korte inschatting. Herhaal de volledige criteriatabel niet.
 
 | Impactdimensie | Hoog | Midden | Laag |
 | --- | --- | --- | --- |

@@ -96,7 +96,10 @@ de benodigde hulpmiddelen beschikbaar zijn. Behoud alle hoofdrubrieken en hun
 volgorde, inclusief lege financiële rubrieken met een duidelijke status. Behoud
 de oorspronkelijke eenkolomstabellen en de Scope-opmaak uit de template; vervang
 die tabellen niet door subkoppen. Beoordeel impact met de vijf criteriarijen in
-de invulregels en vermeld per dimensie de score en onderbouwing.
+de invulregels en vermeld per dimensie de score en onderbouwing. Zet boven de
+impacttabel een inschatting met businessurgentie, de belangrijkste impactdimensies
+en een korte toelichting op basis van die tabel. Houd de urgentie op basis van
+een deadline of tijdshorizon afzonderlijk herkenbaar.
 Controleer dat voorbeeldinstructies en invulmarkeringen zijn vervangen door
 inhoud, “Nog te bevestigen”, “Onbekend” of gemotiveerd “Niet van toepassing”.
 

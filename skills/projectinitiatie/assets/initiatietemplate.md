@@ -25,7 +25,15 @@ Bronnen en bevestigingen: [bron, datum en status; verwijs hiernaar in de tekst]
 
 ## Urgentie & impact
 
-Urgentie: [categorie, termijn, gevolgen van uitstel en onderbouwing]
+**Businessurgentie: [inschatting met eventuele voorlopige status]**
+
+**Impact: [belangrijkste impactdimensies uit de beoordeling hieronder]**
+
+[Korte inschatting op basis van de onderstaande tabel: leg uit welke gevolgen
+voor de business de urgentie bepalen en wat uitstel betekent.]
+
+Urgentie op basis van tijdshorizon: [categorie, bekende opleverdatum of termijn
+en onderbouwing; nog te bepalen indien onbekend]
 
 | Impactdimensie | Hoog / midden / laag / onbekend / n.v.t. | Onderbouwing |
 | --- | --- | --- |
