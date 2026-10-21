@@ -5,7 +5,7 @@ Status: Concept ter afstemming
 Type initiatief: [Project of Improvement; nog te bevestigen indien onbekend]
 
 Bijgewerkt op: [datum]
-Bronnen en bevestigingen: [bron, datum en status; verwijs hiernaar in de tekst]
+Bronnen: [inhoudelijke projectbron, datum en status; verwijs hiernaar in de tekst]
 
 ## Aanvrager & stakeholders
 
@@ -120,7 +120,8 @@ ontbrekende input. Geen financiële ROI zonder voldoende cijfers.]
 
 ## Beslissing
 
-[Vastgelegd besluit, beslisser, datum en voorwaarden; anders nog geen beslissing.]
+[Inhoudelijk projectbesluit, vastgestelde beslisser, datum en voorwaarden;
+anders nog geen beslissing. Beschrijf geen opdrachten aan Codex of chatbevestigingen.]
 
 ### Open punten voor aanvulling
 

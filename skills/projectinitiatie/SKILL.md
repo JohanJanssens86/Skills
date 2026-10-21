@@ -12,6 +12,12 @@ Het eindproduct is deze ingevulde template, geen technische specificatie of
 ticketlijst. Werk standaard in het Nederlands, tenzij de gebruiker anders vraagt.
 Schrijf beknopt: korte alinea's, geen herhaling tussen rubrieken en alleen
 technische details die nodig zijn om scope, risico's of haalbaarheid te beoordelen.
+Schrijf het initiatiedocument als zelfstandig projectdocument. Verwijs daarin
+niet naar de gebruiker als iemand die Codex opdrachten geeft, naar prompts,
+het interview of het gesprek met Codex. Formuleringen zoals “op jouw verzoek”,
+“door de gebruiker bevestigd” en “de opdrachtgever gaf Codex de opdracht” horen
+niet in het document. Beschrijf uitsluitend de inhoudelijke projectkeuzes,
+feiten en open punten; noem personen alleen vanuit een vastgestelde projectrol.
 
 Lees bij de start ook [references/invulregels.md](references/invulregels.md)
 voor de rubrieken, oplossingsopties en ramingen. Deze skill bevat de benodigde
@@ -102,6 +108,11 @@ en een korte toelichting op basis van die tabel. Houd de urgentie op basis van
 een deadline of tijdshorizon afzonderlijk herkenbaar.
 Controleer dat voorbeeldinstructies en invulmarkeringen zijn vervangen door
 inhoud, “Nog te bevestigen”, “Onbekend” of gemotiveerd “Niet van toepassing”.
+Controleer de volledige Markdown- en PDF-inhoud, inclusief Beslissing, open punten
+en bronregister, op verwijzingen naar opdrachten aan Codex of het gesprek.
+Verwoord zulke passages als zakelijke projectinhoud en verwijder procesopmerkingen
+over het maken van het document. Een bevestiging in de chat is geen formeel
+projectbesluit en maakt de gebruiker niet automatisch opdrachtgever of beslisser.
 
 Een concept mag direct worden opgesteld en opgeleverd; wacht daarvoor niet op
 formele projectgoedkeuring. Vraag aan het einde of de gebruiker de inhoud als

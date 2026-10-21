@@ -31,6 +31,17 @@ Schrijf per rubriek alleen de kern. Vermijd herhaling en uitgebreide API- of
 implementatiebeschrijvingen; verwijs naar de bron voor details. Behoud de
 hoofdrubrieken, relevante aannames, risico's en open beslispunten.
 
+Het initiatiedocument beschrijft het project, niet de totstandkoming met Codex.
+Neem geen verwijzingen op naar de gebruiker die opdrachten geeft, prompts,
+chatantwoorden of bevestigingen van het interview. Dit geldt ook voor metadata,
+Beslissing, open punten en bronnen. Zet bijvoorbeeld “Op verzoek van de gebruiker
+geen raming gemaakt” om naar “De raming is nog te bepalen”, en “Door de gebruiker
+aan Codex opgedragen: optie A” naar “Oplossingsrichting: optie A”, met de juiste
+status als voorstel of vastgesteld besluit. Laat opmerkingen over lokale
+oplevering of publicatieopdrachten weg. Behoud inhoudelijke bronverwijzingen en
+werkelijk vastgestelde projectrollen, besluiten en onzekerheden; presenteer een
+chatbevestiging niet als formele goedkeuring of bewijs van beslissingsbevoegdheid.
+
 Behoud de oorspronkelijke volgorde en de eenkolomstabellen bij Aanvrager &
 stakeholders, Impact analyse, Risico analyse en Haalbaarheid, met de vetgedrukte
 labels en bijbehorende inhoudsrijen. Onder Scope blijven In scope en Out of Scope
@@ -101,6 +112,10 @@ impacttabel, ramingstabel, metadata en open punten blijven behouden.
   afzonderlijk, met onderbouwing en voorwaarden.
 - **Beslissing:** daadwerkelijk genomen besluit, beslisser, datum en voorwaarden
   indien bekend. Anders “Nog geen beslissing vastgelegd” met te beslissen punten.
+  Beschrijf ook inhoudelijke besluiten zonder verwijzing naar conversaties:
+  vermijd “zoals besproken”, “in het gesprek bevestigd” en “op jouw verzoek”.
+  Neem het gesprek niet als bronverwijzing op. Leg de inhoud en besluitstatus vast
+  zonder te beschrijven via welk chatantwoord de keuze tot stand kwam.
 
 ## Impactcriteria
 
