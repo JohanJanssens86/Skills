@@ -1,0 +1,5 @@
+interface:
+  display_name: "To Xray"
+  short_description: "Maak een Xray Cloud CSV vanuit een specificatie"
+policy:
+  allow_implicit_invocation: false

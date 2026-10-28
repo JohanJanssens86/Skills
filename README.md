@@ -1,8 +1,8 @@
 # Matt Pocock-skills voor Codex
 
-Deze repository bevat elf skills voor Codex: `domain-modeling`,
+Deze repository bevat twaalf skills voor Codex: `domain-modeling`,
 `grilling`, `grill-me`, `grill-with-docs`, `to-spec`, `setup-matt-pocock-skills`,
-`to-tickets`, `implement-spec`, `tdd`, `code-review` en `projectinitiatie`.
+`to-tickets`, `implement-spec`, `tdd`, `code-review`, `projectinitiatie` en `to-xray`.
 
 Bron: [mattpocock/skills](https://github.com/mattpocock/skills). De lokale
 aanpassingen vervangen Claude-specifieke aanroepen door Codex-instructies.
@@ -68,6 +68,17 @@ De marge wordt intern verwerkt en niet afzonderlijk getoond. Ontbrekende gegeven
 blijven zichtbaar als open punten. Het resultaat is een beknopt lokaal
 initiatiedocument in Markdown, na inhoudelijke bevestiging altijd ook als
 downloadbare PDF. Er worden geen specificatie of tickets gepubliceerd.
+
+Gebruik `$to-xray` met een specificatiebestand, GitHub-issue of URL om manuele
+testgevallen voor Xray Cloud te maken. De skill levert een CSV voor de Xray
+Test Case Importer en een Markdownrapport met dekking, open vragen en
+importinstructies. Er wordt niets automatisch geïmporteerd in Jira/Xray.
+Standaard is er geen maptoewijzing; geef desgewenst
+`--test-repository "Map/Submap"` op. Deze skill is aangeleverd door een collega
+en aangepast voor Codex; ze wordt alleen expliciet aangeroepen.
+
+Voor installatie in de persoonlijke `.agents/skills`-map gebruik je
+`powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Destination "$env:USERPROFILE\.agents\skills"`.
 
 ## Bijwerken
 
