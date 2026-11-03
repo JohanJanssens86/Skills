@@ -1,6 +1,7 @@
 ---
 name: to-xray
 description: Maak vanuit een specificatie een CSV met manuele tests voor de Xray Cloud Test Case Importer.
+disable-model-invocation: true
 ---
 
 # To Xray
