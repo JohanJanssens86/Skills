@@ -1,0 +1,11 @@
+{
+  "name": "johan-skills",
+  "owner": { "name": "Johan Janssens" },
+  "plugins": [
+    {
+      "name": "johan-skills",
+      "source": "./",
+      "description": "Matt Pocock-skills (aangepast) plus projectinitiatie en to-xray, voor Claude Code."
+    }
+  ]
+}

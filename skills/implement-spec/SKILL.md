@@ -1,6 +1,7 @@
 ---
 name: implement-spec
 description: "Implement the result of /to-spec and /to-tickets in code."
+disable-model-invocation: true
 ---
 
 You have been provided a spec. This spec should have tickets associated with it, describing how to implement the spec.
@@ -48,3 +49,10 @@ integration branch's starting commit for the final review. Respect the available
 agent slots and start further ready tickets as slots become available.
 Archive managed worktrees with the Codex worktree tool after their work is merged.
 Preserve unmerged work and never discard existing changes to prepare or clean up.
+
+## Claude Code execution
+
+In Claude Code, start each **implementer subagent** with the Agent tool and
+`isolation: "worktree"` instead of the Codex collaboration and worktree tools.
+Use the `claude/` branch prefix unless the user or session specifies another.
+All other rules from the Codex section apply unchanged.

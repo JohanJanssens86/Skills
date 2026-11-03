@@ -1,0 +1,8 @@
+{
+  "name": "johan-skills",
+  "version": "1.0.0",
+  "description": "Matt Pocock-skills (aangepast) plus projectinitiatie en to-xray, voor Claude Code.",
+  "author": { "name": "Johan Janssens" },
+  "repository": "https://github.com/JohanJanssens86/Skills",
+  "skills": "./skills/"
+}

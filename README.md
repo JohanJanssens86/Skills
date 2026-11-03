@@ -32,6 +32,31 @@ gh auth login
 
 Aanmeldgegevens worden niet in deze repository opgeslagen.
 
+## Installeren in Claude Code
+
+De repository is ook een Claude Code-plugin. Voer in Claude Code (CLI, desktop
+of claude.ai/code) uit:
+
+```
+/plugin marketplace add JohanJanssens86/Skills
+/plugin install johan-skills@johan-skills
+```
+
+De skills heten daarna bijvoorbeeld `/johan-skills:grill-me`. Waar de instructies
+`$naam` noemen (Codex-notatie), gebruik je in Claude Code `/naam`. Skills die in
+Codex alleen expliciet aangeroepen worden, hebben `disable-model-invocation: true`.
+
+Zonder plugin kun je ze als persoonlijke skills kopiëren naar `~/.claude/skills`
+(macOS/Linux):
+
+```bash
+./install.sh
+```
+
+Of op Windows: `powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Destination "$env:USERPROFILE\.claude\skills"`.
+Let op: de persoonlijke skill `code-review` overschaduwt dan de ingebouwde
+`/code-review` van Claude Code; via de plugin heeft ze een eigen namespace.
+
 ## Gebruiken in een project
 
 Roep `$setup-matt-pocock-skills` expliciet aan in het doelproject. Deze skill stelt
