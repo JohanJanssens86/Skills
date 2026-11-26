@@ -1,6 +1,6 @@
 ---
 name: to-xray
-description: Maak vanuit een specificatie een CSV met manuele tests voor de Xray Cloud Test Case Importer.
+description: Maak vanuit een specificatie een CSV met manuele tests voor de Xray Cloud Test Case Importer, en voeg de CSV en het rapport als laatste stap toe aan de Jira-feature.
 disable-model-invocation: true
 ---
 
@@ -8,7 +8,7 @@ disable-model-invocation: true
 
 Aanroep in Codex: `$to-xray [specificatiepad, GitHub-issue of URL] [--test-repository "Map/Submap"]`.
 
-Zet een specificatie, doorgaans gemaakt met `$to-spec`, om naar uitvoerbare manuele testgevallen voor **Xray Cloud**. Lever een CSV voor de **Xray Test Case Importer** en een Markdown-rapport met dekking, open vragen en importinstructies. Het aanroepen van deze skill autoriseert bestandscreatie; importeren of wijzigen van Jira/Xray hoort niet bij deze skill.
+Zet een specificatie, doorgaans gemaakt met `$to-spec`, om naar uitvoerbare manuele testgevallen voor **Xray Cloud**. Lever een CSV voor de **Xray Test Case Importer** en een Markdown-rapport met dekking, open vragen en importinstructies. Het aanroepen van deze skill autoriseert bestandscreatie en, als laatste stap, het toevoegen van de CSV en het rapport als bijlagen aan de Jira-feature van de specificatie (zie §5). Importeren in Xray en andere wijzigingen aan Jira/Xray horen niet bij deze skill.
 
 ## 1. Lees de specificatie
 
@@ -91,4 +91,28 @@ Lees de geschreven CSV opnieuw met een CSV-parser en controleer:
 - Lees alle teksten in `Action`, `Data` en `Expected Result` na volgens “Taal voor de tester”: directe handelingen, relevante testgegevens en zichtbare resultaten. Herschrijf onnodig technische of onnatuurlijke taal en controleer dat requirements, codes en verwachte waarden behouden zijn.
 - Maximaal 1000 unieke tests per importbestand. Splits grotere exports zonder een test over bestanden te verdelen.
 
-Herstel fouten vóór oplevering. Geef downloadlinks/bestandspaden, aantallen tests en stappen, belangrijkste open vragen en een kort importadvies. Benoem dat de bestanden lokaal zijn gevalideerd; claim pas een geslaagde Xray-import als die daadwerkelijk is uitgevoerd.
+Herstel fouten vóór oplevering. Ga pas naar §5 als de validatie zonder fouten is.
+
+## 5. Voeg de bestanden toe aan de feature (altijd de laatste stap)
+
+Voeg na een geslaagde validatie de CSV en het rapport toe als **bijlagen** aan de Jira-feature waaronder de specificatie valt. Dit is altijd de laatste stap van de skill: doe het pas als beide bestanden definitief zijn. Pas je de bestanden daarna nog aan, voeg dan de nieuwe versie opnieuw toe.
+
+**Bepaal de feature:**
+
+- De bron is een Jira-issue van type **Feature**: gebruik die feature.
+- De bron bestaat uit Jira-issues (PBI's, stories) onder één feature: gebruik hun gemeenschappelijke parent.
+- De requirements hangen onder **meer dan één feature**, of de feature is niet eenduidig: vraag de gebruiker welke feature de bijlagen krijgt.
+- De bron is geen Jira-issue (GitHub-issue, lokaal bestand, URL) en de gebruiker gaf geen feature op: sla deze stap over en vermeld dat in de oplevering. Verzin geen feature-key.
+
+**Voeg toe:**
+
+- Gebruik de Jira-connector om bestanden als bijlage toe te voegen (bij de Atlassian-connector: `uploadAttachmentToJiraIssue` in twee fasen, eerst met het bestandspad, daarna met het verkregen fileId). Voeg beide bestanden toe als losse bijlage, niet inline in de beschrijving.
+- Verwijder of overschrijf geen bestaande bijlagen. Heeft de feature al een bijlage met dezelfde naam, voeg dan een versie met datum- of versiesuffix toe, in lijn met de lokale bestandsnaam.
+- Wijzig verder niets aan de feature of andere issues.
+- Is er geen Jira-connector beschikbaar of mislukt het toevoegen, vermeld dat dan duidelijk in de oplevering en geef het pad van beide bestanden, zodat de gebruiker ze zelf kan toevoegen.
+
+**Klaar wanneer:** beide bestanden als bijlage aan de feature hangen, of de reden waarom niet staat in de oplevering.
+
+## Oplevering
+
+Geef de bestandspaden, de feature met de toegevoegde bijlagen (of de reden waarom niet), de aantallen tests en stappen, de belangrijkste open vragen en een kort importadvies. Benoem dat de bestanden lokaal zijn gevalideerd; claim pas een geslaagde Xray-import als die daadwerkelijk is uitgevoerd.
